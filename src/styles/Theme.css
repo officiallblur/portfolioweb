@@ -1,0 +1,27 @@
+/* Additional theme-specific styles if needed */
+.dark .hero-image .glow-effect {
+  background: radial-gradient(circle, rgba(123, 116, 255, 0.4) 0%, rgba(123, 116, 255, 0) 70%);
+}
+
+/* Smooth theme transition for specific elements */
+body, .navbar, .tech-stack, footer {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode scrollbar */
+[data-theme="dark"] ::-webkit-scrollbar {
+  width: 8px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
