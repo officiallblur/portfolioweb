@@ -26,7 +26,7 @@ const Hero = () => {
               repeat={Infinity}
             />
           </h1>
-          <h2>Full Developer & QA specialist</h2>
+          <h2>Fullstack Developer & QA specialist</h2>
           <p>
             I build exceptional digital experiences with modern web technologies.
           </p>
