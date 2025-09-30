@@ -20,7 +20,7 @@ const projects = [
     title: 'Resume Builder',
     description: 'An interactive resume builder application with customizable templates.',
     technologies: ['React', 'PDF Generation', 'Local Storage'],
-    link: '#',
+    link: 'https://resume-builder-tau-blush.vercel.app/',
     image: '/assets/images/resume-builder.jpg'
   }
 ];
